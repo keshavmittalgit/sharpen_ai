@@ -40,6 +40,7 @@ export default function HomePage() {
           </div>
           <div className="footer-subtilte">Jenny, SaaS sales</div>
         </div>
+        
       </div>
     </>
   );

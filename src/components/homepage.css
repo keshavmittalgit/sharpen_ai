@@ -20,4 +20,33 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
+}
+
+.card{
+    background-color: rgba(2, 59, 105, 0.436);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.33);
+    padding: 25px 20px;
+    width: 27%;
+    flex-shrink: 0;
+    border-radius: 0.4375rem;
+    opacity: var(--sds-size-stroke-border);
+    background: rgba(23, 161, 227, 0.76);
+}
+
+.card-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-title{
+    color: #FFF;
+    font-family: var(--sds-typography-body-font-family);
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 1.25rem */
+    width: 17.625rem;
+height: 4.375rem;
+flex-shrink: 0;
 }

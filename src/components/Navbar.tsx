@@ -15,7 +15,7 @@ function Navbar() {
           <div className="navElements">What Does it Do?</div>
           <div className="navElements">Who is Sharpen For?</div>
           <div className="navElements">Trusted & Secure</div>
-          <div className="navElements">Common Questions</div>
+          <div className="navElements">FAQ</div>
         </div>
       </div>
     </div>
