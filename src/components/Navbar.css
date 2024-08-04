@@ -48,3 +48,116 @@
   transition: background-color .4s;
 }
 
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background-color: white;
+  margin-bottom: 4px;
+  border-radius: 2px;
+}
+
+/* Added media query for responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-wrap: wrap;
+    height: auto;
+    padding: 20px 0;
+  }
+
+  /* Hide text-section by default on mobile */
+  .text-section {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 10px;
+  }
+
+  /* Show text-section when active class is applied */
+  .text-section.active {
+    display: flex;
+  }
+
+  /* Adjust navElements for mobile layout */
+  .navElements {
+    width: 100%;
+    padding: 15px 40px;
+  }
+
+  /* Show hamburger menu on mobile */
+  .hamburger {
+    display: flex;
+  }
+}
+
+/* ... (previous styles remain unchanged) ... */
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  margin-right: 20px;
+  /* Added to position spans absolutely */
+  position: relative;
+  width: 30px;
+  height: 25px;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.hamburger span {
+  width: 30px;
+  height: 3px;
+  background-color: white;
+  border-radius: 2px;
+  /* Changed to position spans absolutely */
+  position: absolute;
+  left: 0;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Positioning each span */
+.hamburger span:nth-child(1) {
+  top: 0;
+}
+
+.hamburger span:nth-child(2) {
+  top: 10px;
+}
+
+.hamburger span:nth-child(3) {
+  top: 20px;
+}
+
+/* Transforming hamburger to X when open */
+.hamburger.open span:nth-child(1) {
+  transform: rotate(45deg);
+  top: 10px;
+}
+
+.hamburger.open span:nth-child(2) {
+  opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+  transform: rotate(-45deg);
+  top: 10px;
+}
+
+@media (max-width: 768px) {
+  /* ... (previous mobile styles remain unchanged) ... */
+
+  .hamburger {
+    display: flex;
+  }
+}
+.hamburger.open{
+
+}
