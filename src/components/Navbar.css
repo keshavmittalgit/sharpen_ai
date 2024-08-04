@@ -64,9 +64,9 @@
 }
 
 /* Added media query for responsive design */
-@media (max-width: 913px) {
+@media (max-width: 768px) {
   .navbar {
-    font-size: 25px;
+    font-size: 20px;
     flex-wrap: wrap;
     height: auto;
     padding: 20px 0;
@@ -152,7 +152,7 @@
   top: 10px;
 }
 
-@media (max-width: 913px) {
+@media (max-width: 768px) {
   /* ... (previous mobile styles remain unchanged) ... */
 
   .hamburger {
