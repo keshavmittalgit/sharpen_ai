@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body{
+    width: 100%;
+}
+
+.demo-video{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(68, 68, 68);
+    border-radius: 7px;
+}
+
+.hero-section{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

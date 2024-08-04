@@ -1,0 +1,14 @@
+:root{
+  opacity: var(--sds-size-stroke-border);
+  background: linear-gradient(124deg, #0098E1 7.67%, #006DA2 59.46%, #00537B 92.33%);
+  margin-top: 60px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+}
