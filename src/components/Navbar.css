@@ -32,6 +32,7 @@
   color: rgb(217, 217, 217);
   white-space: nowrap;
   overflow: hidden;
+  z-index: 10;
 }
 
 .navElements{
@@ -53,13 +54,14 @@
   flex-direction: column;
   cursor: pointer;
   margin-right: 20px;
+  margin-bottom: 5px;
 }
 
 .hamburger span {
   width: 25px;
   height: 3px;
   background-color: white;
-  margin-bottom: 4px;
+  margin-bottom: 5px;
   border-radius: 2px;
 }
 
@@ -90,6 +92,10 @@
   .navElements {
     width: 100%;
     padding: 15px 40px;
+  }
+  .navElements:hover{
+    width: 100%;
+    border-radius: 0;
   }
 
   /* Show hamburger menu on mobile */
